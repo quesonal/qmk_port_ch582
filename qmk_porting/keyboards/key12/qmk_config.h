@@ -59,6 +59,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define WS2812_EN_PIN   A12
 #define WS2812_EN_LEVEL 1
+#define WS2812_PWM_DRIVER 1
+#define WS2812_DI_PIN A15
 
 #ifdef RGB_MATRIX_ENABLE
 // #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_SOLID_REACTIVE
